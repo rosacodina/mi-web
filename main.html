@@ -19,12 +19,11 @@
         <ul class="menu">
             <li> 
                 <a class="list" href=> MI FORMACIÓN
-            </li>
-                
+            </li> 
             <li class="list">
                 MIS PROYECTOS
             </li>
-            <li class="list">
+            <li class="list" href="#">
             CONTACTO
             </li>
         </ul>
@@ -32,12 +31,45 @@
     </header> 
 
     <main class="main">
+
+        <section class="section-container">
         <h1 class="title">
         Un mundo entero por programar
         </h1>
+        </section>
+
+        <section class="form-container">
+
+            <form class="form" action="/signup" method="post">
+            Rellene los siguientes campos para ponerse en contacto conmigo:
+                <label for="Nombre">Nombre</label>    
+                <input 
+                    placeholder="Escribe aquí tu nombre de pila..."
+                    type="text"
+                    name="firstName" />
+
+                <label for="Apellidos">Apellidos</label>
+                <input 
+                    type="text"
+                    name="lastName" />
+
+                <label for="Correo electrónico">Correo electrónico</label>
+                <input 
+                    type="text"
+                    name="lastName" />
+
+                <input 
+                    type="submit"
+                    value="Enviar info" />
+            </form>
+
+        </section>
     </main>
 
-    <footer>
+   
+
+    <footer class="footer">
+        <p>Todos los derechos reservados</p>
 
     </footer>
     

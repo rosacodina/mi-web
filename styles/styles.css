@@ -11,20 +11,18 @@
 }
 
 .header {
-  position: fixed;
-  top: 0;
+  position: sticky;
+  padding: 25px 75px 25px 75px;
   width: 100vw;
   background-color: var(--color-white);
   border: solid 1px black;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  padding-bottom: 13px;
 }
 
 .menu {
   list-style: none;
-  display: flex;
 }
 
 .list {
@@ -36,14 +34,35 @@
 .main {
   background-color: rgb(175, 220, 226);
   height: 100vw;
-  width: 100%;
+  width: 100vw;
+}
+
+.section-container {
+  width: 100vw;
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin: none;
+  display: flex;
+  display: inline-block;
+  border-radius: 5px black;
 }
 
 .title {
+  display: flex;
+  align-items: center;
   text-align: center;
   word-spacing: 100vw;
+  font-size: 30px;
+}
+
+.form-container {
+  border-radius: 5px black;
+  text-align: center;
+}
+
+form {
+  align-items: center;
+}
+
+.footer {
+  color: black;
 }
